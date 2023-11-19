@@ -1,0 +1,99 @@
+/* This is the styles sheet I created to target certain elements
+on the web page. */
+/* I gave the html a different font and background */
+html {
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  background: linear-gradient(180deg, #f58484, #ff89897b, #baafff, #ffffff);
+}
+/* The header 1 tag gets a margin of 4 rem and the text is aligned to the 
+center */
+h1 {
+  margin: 4rem auto 1rem auto;
+  text-align: center;
+}
+/* Text is centered again */
+h2 {
+  text-align: center;
+}
+/* The list has a font-size of 20, padding of 10 and the text is centered */
+ol li {
+  font-size: 20px;
+  padding: 10px 0;
+  text-align: center;
+}
+/* The table recieved border-collapse feature along with a width of 100% */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+/* Inside the table a padding of 8 px is added along with aligning the 
+text to the left */
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+/* These are more attibutes I gave the form to follow the box-model
+type of styling. */
+form {
+  color: rgb(205, 12, 12);
+  padding: 1rem 2rem;
+  text-align: center;
+  margin: 1rem auto;
+  font-weight: lighter;
+  background-color: rgb(11, 0, 0);
+  border-radius: 1rem;
+}
+/* The next attributes are all classes that were created in the html
+using div tags. The img-div has a display of flex and flex-flow of row
+where the content is spaced evenly using the justify-content feature.
+ */
+
+.img-div {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+}
+/* I used a class to make the list of racers with padding, margins, font centered,
+background color and a border-radius. */
+.racers-div {
+  max-width: 800px;
+  margin: 5rem auto;
+  color: rgb(253, 197, 132);
+  padding: 1rem 2rem;
+  text-align: center;
+  margin: 1rem auto;
+  font-weight: lighter;
+  background-color: rgb(0, 58, 66);
+  border-radius: 1rem;
+}
+/* The constructor-div is a table with features like */
+.constructors-div {
+  color: rgb(253, 144, 132);
+  padding: 1rem 2rem;
+  text-align: center;
+  margin: 1rem auto;
+  font-weight: lighter;
+  background-color: rgb(26, 22, 2);
+  border-radius: 1rem;
+}
+
+.tracks-div {
+  color: rgb(205, 12, 12);
+  padding: 1rem 2rem;
+  text-align: center;
+  margin: 1rem auto;
+  font-weight: lighter;
+  background-color: rgb(11, 0, 0);
+  border-radius: 1rem;
+}
+.pages-div {
+  color: rgb(253, 197, 132);
+  padding: 1rem 2rem;
+  text-align: center;
+  margin: 1rem auto;
+  font-weight: lighter;
+  background-color: rgb(78, 207, 224);
+  border-radius: 1rem;
+}
