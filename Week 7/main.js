@@ -149,6 +149,17 @@ function moreProduction(demandForProduct, costOfManufacturing) {
   return increaseProduction;
 }
 moreProduction(200, 1000);
-// The function moreProduction uses two arguments (demandForProduct, costOfManufacturing) to determine if a
-// product is worth investing in if the demand variable is more than 100 buyers and the cost variable is
-// less than 2000 dollars
+
+const customers = [
+  {
+    name: "Sam",
+    address: {
+      street: "1234 W Bell Rd",
+      city: "Phoenix",
+      zip: "85308",
+      state: "AZ",
+    },
+    membershipLevel: "GOLD",
+    age: 32,
+  },
+];
