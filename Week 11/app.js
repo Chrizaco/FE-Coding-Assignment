@@ -256,3 +256,5 @@ const reset_board = () => {
 };
 
 render_board();
+// I was able to figure out the how the html and css for this game worked but in the javascript I had trouble uploading the dependencies and also figuring
+// out why declaring the different variables as const was causing the code to not execute.
